@@ -22,8 +22,7 @@ int multiplicar(int a, int b)
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
-/* para verificar si un número entero es divisible exactamente entre 2*/
 int esPar(int n)
 {
-    return (n % 2) == 0;
+    return (n % 2) == 0; /* version main */
 }
